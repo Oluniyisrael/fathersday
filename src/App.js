@@ -11,7 +11,7 @@ function App() {
     <Router>
       <Routes>
         <Route path='/' element={<FirstPage/>}/>
-        <Route path='/mybirthday' element={<BirthdayPage/>
+        <Route path='/daddy' element={<BirthdayPage/>
         }/>
       </Routes>
     </Router>
