@@ -1,0 +1,140 @@
+.banner{
+    font-weight: 400;
+    color: rgb(255, 42, 0);
+    font-variant: small-caps;
+}
+.firstRow{
+    font-size: 30px;
+    /* color: rgb(175, 167, 167); */
+    color: #A1867F;
+}
+.secondRow{
+    font-size: 50px;
+    color: #19297C;
+}
+.thirdRow{
+    color: #19297C;
+    font-size: 20px;
+}
+.contents{
+    /* width: 50%; */
+    margin: 2rem 0 ;
+}
+.contents td{
+    height: 100px;
+    width: 600px;
+    text-align: center;
+    font-weight: 400;
+}
+#zodiacIcon{
+    font-size: 40px;
+}
+h1 {
+    font-weight: 400;
+}
+p{
+    color: #475657;
+    margin: 0;
+    padding: 0;
+}
+.dayBar{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    background-color: red;
+    z-index: 10;
+    position: relative;
+}
+.dayBar h2{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-weight: 100;
+}
+.dayLevel{
+    width: 100%;
+    height: 20px;
+    background-color: orangered;
+    margin: -32px 0;
+}
+
+.weekBar{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    background-color: #4A6D7C;
+    z-index: 10;
+    position: relative;
+}
+.weekBar h2{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-weight: 100;
+}
+.weekLevel{
+    width: 100%;
+    height: 20px;
+    background-color:#62929E;
+    margin: -32px 0;
+}
+.monthBar{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    background-color:#393A10;
+    z-index: 10;
+    position: relative;
+}
+.monthBar h2{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-weight: 100;
+}
+.monthLevel{
+    width: 100%;
+    height: 20px;
+    background-color:#29E7CD;
+    margin: -32px 0;
+}
+#heading{
+    padding-top: 2em;
+        font-weight: 300; 
+}
+.timeDet {
+    width: 100%;
+}
+.timeDet td{
+    width: auto;
+    text-align: center;
+    font-size: 30px;
+    font-family: tahoma;
+    font-weight: 200;
+}
+.aboutBirthday{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 2em ;
+    width: 90%;
+    /* margin: 10em 0; */
+}
+#blue{
+    width: 30px;
+    height: 3px;
+    background-color:#213ed4;
+    border: 0;
+}
+#yellow{
+    width: 30px;
+    height: 3px;
+    background-color: #29E7CD;
+    border: 0;
+}
+#green{
+    width: 30px;
+    height: 3px;
+    background-color: #939544;
+    border: 0;
+}

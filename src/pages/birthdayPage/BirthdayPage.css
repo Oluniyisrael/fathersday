@@ -1,0 +1,86 @@
+body {
+    background: linear-gradient(to bottom, #b2d1a1, #7f9835);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+p {
+    /* width: 80%; */
+    font-size: 40px;
+    color: #3d4053;
+  }
+     .content {
+      text-align: center;
+      color: white;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+  }
+    .frame img {
+        border-radius: 50%;
+        object-fit: cover;
+        border: 5px solid blue;
+    }
+      /* .frame {
+        display: inline-block;
+        border-radius: 50%;
+        border: 5px solid white;
+        padding: 5px;
+        background-color: white;
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+      } */
+  
+      #overlay{
+        display: block;
+        position: absolute;
+        bottom: 50px;
+        right: 0px;
+        color: red;
+        transform: rotate(-50deg);
+        font-size: 25px;
+        font-family: cursive;
+    }
+      .shimmer {
+        position: relative;
+        overflow: hidden;
+        display: inline-block;
+      }
+  
+      .shimmer:before {
+        content: '';
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+        background: linear-gradient(to right, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.6) 20%, rgba(255, 255, 255, 0.2) 40%, rgba(255, 255, 255, 0.2) 100%);
+        transform: rotate(45deg);
+        animation: shimmer-animation 2s infinite;
+      }
+  
+      @keyframes shimmer-animation {
+        0% {
+          transform: translateX(-50%) rotate(45deg);
+        }
+        100% {
+          transform: translateX(150%) rotate(45deg);
+        }
+      }
+  
+      @media screen and ( max-width :800px ){
+        p {
+          /* width: 80%; */
+          font-size: 20px;
+          color: #3d4053;
+        }
+        body{
+          align-items: center;
+          height: 100vh;
+        }
+      }
