@@ -4,7 +4,7 @@ import './FirstPage.css'
 function FirstPage() {
   function goToBirthdayPage() {
     setTimeout(() => {
-      window.document.location +="mybirthday"
+      window.document.location +="daddy"
     }, 4000);
   }
   return (
